@@ -1,70 +1,115 @@
-# Getting Started with Create React App
+# 🏡 HomeCraft – Homely Art Ventures
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+HomeCraft is a scalable, secure, and community-driven marketplace platform designed to empower local artisans and connect them with customers through a structured e-commerce and engagement ecosystem.
 
-## Available Scripts
+The platform enables product discovery, customization workflows, seller management, and community collaboration through a full-stack architecture built with **Spring Boot, ReactJS, and MySQL**.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📌 Executive Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+HomeCraft is a full-stack web application that integrates:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 🛒 Marketplace commerce  
+- 🎨 Artisan engagement  
+- 🤝 Structured seller-customer interaction  
+- 🛡️ Administrative governance  
+- 🌍 Community collaboration features  
 
-### `npm test`
+The system is built using industry-standard architecture principles including **MVC design, RESTful APIs, JWT-based authentication, and role-based access control.**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🧰 Technology Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🎯 Frontend
+- ReactJS
+- HTML5, CSS3
+- Axios
+- JWT Token Handling
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### ⚙️ Backend
+- Spring Boot (J2EE)
+- Spring Security
+- RESTful API Architecture
+- MVC Pattern
+- JWT Authentication
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🗄️ Database
+- MySQL (Relational Data Modeling)
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🚀 Core Functional Capabilities
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 👤 Customer Module
+- 🔍 Product discovery with advanced filtering
+- ✏️ Customization request workflow
+- 🛒 Cart management and order placement
+- 📦 Order tracking
+- 🤖 Integrated chatbot assistance
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 🧑‍🎨 Seller Module
+- ➕ Product lifecycle management (Create, Update, Delete)
+- 📑 Order processing system
+- 📨 Customization request handling
+- 📊 Structured dashboard interface
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 🛡️ Administrative Module
+- ✅ Seller verification and approval
+- 👥 User lifecycle management
+- 🚨 Content moderation
+- 📈 Platform governance and monitoring
 
-## Learn More
+### 🌐 Community Ecosystem
+- 🎓 Artisan workshops
+- 🤝 Community meetups
+- 🧠 Skill development collaboration features
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🏗️ System Architecture
 
-### Code Splitting
+### 🔑 Key Architectural Principles
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Separation of Concerns  
+- Stateless REST Communication  
+- Token-based Security (JWT)  
+- Role-based Authorization  
+- Scalable Backend Design  
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🔐 Security Implementation
 
-### Making a Progressive Web App
+- 🔑 JWT-based stateless authentication  
+- 👥 Role-based access control (Admin / Seller / Customer)  
+- 🔒 Secure password encryption  
+- 🚫 Protected API endpoints using Spring Security  
+- 🛠️ Token validation middleware  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## ⚙️ Installation Guide
+### 🔹 Backend Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+git clone https://github.com/your-username/homecraft.git
+cd backend
 
-### Deployment
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 👨‍💻 About the Developer
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Anirudha Shinde**  
+Full Stack Developer | Java • Spring Boot • ReactJS • MySQL  
+
+Passionate about building scalable backend systems, secure REST APIs, and responsive frontend applications.  
+Focused on delivering clean architecture, maintainable code, and real-world business solutions.
+
+---
+
+⭐ If you found this project valuable, consider giving it a star.
+
