@@ -1,0 +1,4 @@
+Install-Package System.IdentityModel.Tokens.Jwt -Version 8.0.0
+Install-Package Dapper
+Install-Package Microsoft.Data.SqlClient
+Install-Package BCrypt.Net-Next

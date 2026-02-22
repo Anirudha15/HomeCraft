@@ -1,0 +1,6 @@
+@HomeCraft.API_HostAddress = http://localhost:5145
+
+GET {{HomeCraft.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
