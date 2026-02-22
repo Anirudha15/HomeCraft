@@ -1,0 +1,11 @@
+Frontend Directory:
+C:\Users\baenu\source\repos\homecraft-client
+
+Google AI Studio API Key:
+1. Go to https://aistudio.google.com/api-keys
+2. Click Create API Key
+3. Any name, any project name.
+4. Click on the value under Key.
+5. Copy key
+6. Paste it in api_key="" in application.yml.
+
