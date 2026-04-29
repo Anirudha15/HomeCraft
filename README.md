@@ -94,7 +94,7 @@ The system is built using industry-standard architecture principles including **
 ### 🔹 Backend Setup
 
 ```bash
-git clone https://github.com/your-username/homecraft.git
+git clone https://github.com/Anirudha15/homecraft.git
 cd backend
 
 ```
